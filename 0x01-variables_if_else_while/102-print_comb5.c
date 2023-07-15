@@ -30,7 +30,7 @@ int main(void)
 					putchar(' ');
 					putchar(d3 + '0');
 					putchar(d4 + '0');
-					if (d1 + d2 + d3 + d4 < 35)
+					if (d1 + d2 + d3 + d4 < 1)
 					{
 						putchar(',');
 						putchar(' ');
