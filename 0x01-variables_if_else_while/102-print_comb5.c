@@ -18,10 +18,10 @@ int main(void)
 		while (d2 <= 1)
 		{
 			d3 = d1;
-			while (d3 <= 9)
+			while (d3 <= 1)
 			{
 				d4 = 0;
-				while (d4 <= 9)
+				while (d4 <= 2)
 				{
 					if (d2 >= d4 && d3 == d1)
 					d4 = d2 + 1;
