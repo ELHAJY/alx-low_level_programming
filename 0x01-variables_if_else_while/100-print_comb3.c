@@ -10,30 +10,29 @@
 
 int main(void)
 {
-    int digit1 = 0, digit2;
+	int d1 = 0, d2;
 
-    while (digit1 <= 9)
-    {
-        digit2 = 0;
-        while (digit2 <= 9)
-        {
-            if (digit1 != digit2 && digit1 < digit2)
-            {
-                putchar(digit1 + 48);
-                putchar(digit2 + 48);
+	while (d1 <= 9)
+	{
+	d2 = 0;
+	while (d2 <= 9)
+	{
+		if (d1 != d2 && d1 < d2)
+		{
+			putchar(d1 + '0');
+			putchar(d2 + '0');
 
-                if (digit1 != 8 || digit2 != 9)
-                {
-                    putchar(',');
-                    putchar(' ');
-                }
-            }
-            digit2++;
-        }
-        digit1++;
-    }
-    putchar('\n');
-
-    return 0;
+		if (d1 != 8 || d2 != 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+		}
+		d2++;
+	}
+	d1++;
+	}
+	putchar('\n');
+return (0);
 }
 
