@@ -25,6 +25,8 @@ int main(void)
 				{
 					if (d2 >= d4 && d3 == d1)
 					d4 = d2 + 1;
+					if (d4 <= 9)
+					{
 					putchar(d1 + '0');
 					putchar(d2 + '0');
 					putchar(' ');
@@ -35,8 +37,9 @@ int main(void)
 						putchar(',');
 						putchar(' ');
 					}
-						d4++;
 					}
+						d4++;
+				}
 					d3++;
 				}
 			d2++;
