@@ -31,7 +31,7 @@ int main(void)
 			}
 			digit2++;
 		}
-		digitl++;
+		digit1++;
 }
 putchar('\n');
 
