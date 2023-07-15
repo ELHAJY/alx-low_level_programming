@@ -10,15 +10,14 @@
 
 int main(void)
 {
-	char alph = 'a', 'A';
-
+	char alph = 'a';
 
 	while (alph <= 'z')
 	{
 		putchar(alph);
 		alph++;
 	}
-	alph = A;
+	alph = 'A';
 	while (alph <= 'Z')
 	{
 		putchar(alph);
