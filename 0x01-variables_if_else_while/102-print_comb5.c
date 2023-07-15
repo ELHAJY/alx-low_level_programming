@@ -12,10 +12,10 @@ int main(void)
 {
 	int d1 = 0, d2, d3, d4;
 
-	while (d1 <= 9)
+	while (d1 <= 1)
 	{
 		d2 = 0;
-		while (d2 <= 9)
+		while (d2 <= 1)
 		{
 			d3 = d1;
 			while (d3 <= 9)
@@ -30,7 +30,7 @@ int main(void)
 					putchar(' ');
 					putchar(d3 + '0');
 					putchar(d4 + '0');
-					if (d1 + d2 + d3 + d4 < 1)
+					if (d1 + d2 + d3 + d4 < 35)
 					{
 						putchar(',');
 						putchar(' ');
