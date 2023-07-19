@@ -2,6 +2,7 @@
 
 /**
  * print_alphabet prints the alphabet, utilisizes in _putchar function.
+ * the alphabet a to z
 */
 
 void print_alphabet(void)
