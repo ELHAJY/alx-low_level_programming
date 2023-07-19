@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
- *
- * Description: prints the alphabet, in lowercase, followed by a new line.
- *
- */
+ * print_alphabet prints the alphabet, utilisizes in _putchar function.
+*/
 
 void print_alphabet(void)
 {
