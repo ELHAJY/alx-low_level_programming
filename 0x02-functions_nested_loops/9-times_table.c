@@ -5,14 +5,16 @@ include "main.h"
 */
 void times_table(void)
 {
-	int i, n;
+	int i, n, in;
 
 	for (n = 0; n < 10; n++)
 	{
 		for (i = 0; i < 10; m++)
 		{
-			_putchar((i * n) / 10 + '0');
-			_putchar((i * n) % 10 + '0');
+			in = i * n;
+			if (in > 9)
+				_putchar(in / 10 + '0');
+			_putchar(in % 10 + '0');
 			if (i < 9)
 			{
 				_putchar(',');
