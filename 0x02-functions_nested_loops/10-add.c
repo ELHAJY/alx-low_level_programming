@@ -3,7 +3,10 @@
 /**
  * add - function that adds two integers and returns the result.
  *
- * @i and @n : input numbers
+ * @i: input number
+ * @n: input number
+ *
+ * Return: return value of add
 */
 
 int add(int i, int n)
