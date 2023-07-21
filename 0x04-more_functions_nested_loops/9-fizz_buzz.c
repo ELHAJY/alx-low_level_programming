@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main - program that prints the numbers from 1 to 100,
@@ -26,5 +26,4 @@ int main(void)
 		else
 			printf("\n");
 	}
-	return (0);
 }
