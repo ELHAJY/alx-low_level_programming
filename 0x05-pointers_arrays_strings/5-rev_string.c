@@ -24,11 +24,8 @@ void rev_string(char *s)
 
 		C[i] = s[i];
 	}
-	s--;
-	i = 0;
-	while (*s != '\0')
+	for (i = 0; i < I; i++)
 	{
-		*s = C[i];
-		s--;
+		s[i] = C[I-i];
 	}
 }
