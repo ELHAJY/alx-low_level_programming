@@ -18,21 +18,18 @@ void puts_half(char *str)
 		str++;
 		n++;
 	}
-	str--;
 	if (n % 2 == 0)
 	{
-		for (i = n; i > n / 2; i--)
+		for (i = n; i > n / 2; --i)
 		{
-			_putchar(*str + 0);
-			str--;
+			_putchar(str[i]);
 		}
 	}
 	else
 	{
 		for (i = n; i > n / 2 + 1; i--)
 		{
-			_putchar(*str + 0);
-			str--;
+			_putchar(str[i]);
 		}
 	}
 	_putchar('\n');
