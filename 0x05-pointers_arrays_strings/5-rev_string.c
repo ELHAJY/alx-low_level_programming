@@ -9,6 +9,8 @@
 
 void rev_string(char *s)
 {
+	char C[];
+
 	int I, i;
 
 	I = 0;
@@ -17,8 +19,6 @@ void rev_string(char *s)
 		s++;
 		I++;
 	}
-	char C[I];
-
 	for (i = 0; i < I; i++)
 	{
 
