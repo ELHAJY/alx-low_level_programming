@@ -9,8 +9,6 @@
 
 void rev_string(char *s)
 {
-	char C[100];
-
 	int I, i;
 
 	I = 0;
@@ -19,15 +17,13 @@ void rev_string(char *s)
 		s++;
 		I++;
 	}
-	for (i = 0; i < I; i++)
+	for (i = 0; i < I / 2; i++)
 	{
+		char c;
 
-		C[i] = s[i];
-	}
-	for (i = 0; i < I; i++)
-	{
-		int a = I - i -1;
-
-		s[i] = C[a];
+		c = S[i];
+		s[i] = s[I-1-i];
+		s[I-1-i] = c;
+	
 	}
 }
