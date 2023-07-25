@@ -5,7 +5,7 @@
  *
  * @a: array imput
  * @n: the number of elements of the array to be printed.
- * 
+ *
  * Return: nothing
  */
 
