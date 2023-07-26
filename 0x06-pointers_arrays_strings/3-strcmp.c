@@ -17,7 +17,7 @@ int _strcmp(char *s1, char *s2)
 
 	while (s1[i])
 	{
-		d = d + ((int)s1[i] - 48) - ((int)s2[i] - 48);
+		d = d + (int)s1[i] - (int)s2[i];
 		i++;
 	}
 	return (d);
