@@ -7,7 +7,7 @@
  * @src: seconde character input
  * @n: int input
  *
- *
+ * Return: dest
  */
 
 char *_strncat(char *dest, char *src, int n)
@@ -20,7 +20,7 @@ char *_strncat(char *dest, char *src, int n)
 		;
 	if (n < w)
 		w = n;
-	for (i = 0; w > i && src[i] != '\0'; i++)
+	for (i = 0; w > i; i++)
 	{
 		dest[v++] = src[i];
 	}
