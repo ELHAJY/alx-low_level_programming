@@ -18,8 +18,8 @@ int main(void)
 	while (s <= 2645)
 	{
 		ch = rand() % 128;
-		s = s + c;
-		putchar(c);
+		s = s + ch;
+		putchar(ch);
 	}
 	putchar(2772 - s);
 	return (0);
