@@ -13,12 +13,13 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int i = 0, d = 0;
+	int d = 0;
 
-	while (s1[i])
+	while (*s1)
 	{
-		d = d + (int)s1[i] - (int)s2[i];
-		i++;
+		d = (int)(*s1 - *s2);
+		s1++;
+		s2++;
 	}
 	return (d);
 }
