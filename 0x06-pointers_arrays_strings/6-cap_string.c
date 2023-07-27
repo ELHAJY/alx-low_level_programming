@@ -17,7 +17,7 @@ char *cap_string(char *ch)
 	{
 		for (n = 0; n < 12; n++)
 		{
-			if (ch[v - 1] == d[n])
+			if (ch[v] == d[n])
 			{
 				a = 1;
 				n = 13;
