@@ -7,6 +7,20 @@
  *
  * Return: capitalizes all words of a string.
  */
+int Delimiter(char c)
+{
+        int n;
+        char d[] = " \t\n,.!?\"(){}"
+
+                for (n = 0; n < 12; n++)
+                {
+                        if (c == d[n])
+                        {
+                                return (1);
+                        }
+                }
+        return (0);
+}
 
 char *cap_string(char *ch)
 {
@@ -21,19 +35,4 @@ char *cap_string(char *ch)
 		}
 	}
 	return (ch);
-}
-
-int Delimiter(char c)
-{
-	int n;
-	char d[] = " \t\n,.!?\"(){}"
-
-		for (n = 0; n < 12; n++)
-		{
-			if (c == d[n])
-			{
-				return (1);
-			}
-		}
-	return (0);
 }
