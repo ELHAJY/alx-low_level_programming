@@ -30,7 +30,7 @@ char *cap_string(char *ch)
 	{
 		if (ch[v] >= 97 && ch[v] <= 122)
 		{
-			if (Delimiter(ch[v - 1])
+			if (Delimiter(ch[v - 1] == 1)
 				ch[v] -= 32;
 		}
 	}
