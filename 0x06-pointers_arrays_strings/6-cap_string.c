@@ -7,30 +7,26 @@
  *
  * Return: capitalizes all words of a string.
  */
-int Delimiter(char c)
-{
-        int n;
-        char d[] = " \t\n,.!?\"(){}"
-
-                for (n = 0; n < 12; n++)
-                {
-                        if (c == d[n])
-                        {
-                                return (1);
-                        }
-                }
-        return (0);
-}
 
 char *cap_string(char *ch)
 {
-	int v;
+	int v, n, a = 1;
+	char d[] = " \t\n,.!?\"(){}"
 
 	for (v = 0; ch[v] != '\0'; v++)
 	{
+		for (n = 0; n < 12; n++)
+		{
+			if (ch[v - 1] == d[n])
+			{
+				a = 1;
+				n = 13;
+			}
+			else
+				a = 0;
+		}
 		if (ch[v] >= 97 && ch[v] <= 122)
 		{
-			if (Delimiter(ch[v - 1] == 1)
 				ch[v] -= 32;
 		}
 	}
