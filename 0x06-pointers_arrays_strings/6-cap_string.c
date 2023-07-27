@@ -5,6 +5,7 @@
  *
  * @ch: input string.
  *
+ * Return: capitalizes all words of a string.
  */
 
 char *cap_string(char *ch)
@@ -15,11 +16,24 @@ char *cap_string(char *ch)
 	{
 		if (ch[v] >= 97 && ch[v] <= 122)
 		{
-			if (ch[v - 1] == ' ' || ch[v - 1] == '\n' || ch[v - 1] == '\t')
-			{
+			if (Delimiter(ch[v - 1])
 				ch[v] -= 32;
-			}
 		}
 	}
 	return (ch);
+}
+
+int Delimiter(char c)
+{
+	int n;
+	char d[] = " \t\n,.!?\"(){}"
+
+		for (n = 0; n < 12; n++)
+		{
+			if (c == d[n])
+			{
+				return (1);
+			}
+		}
+	return (0);
 }
