@@ -15,7 +15,7 @@ char *cap_string(char *ch)
 
 	for (v = 0; ch[v] != '\0'; v++)
 	{
-		for (n = 0; n < 12; n++)
+	/*	for (n = 0; n < 12; n++)
 		{
 			if (ch[v] == d[n])
 			{
@@ -24,7 +24,7 @@ char *cap_string(char *ch)
 			}
 			else
 				a = 0;
-		}
+		}*/
 		if (ch[v] >= 97 && ch[v] <= 122)
 		{
 				ch[v] -= 32;
