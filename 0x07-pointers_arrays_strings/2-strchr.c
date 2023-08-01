@@ -6,19 +6,19 @@
  * @c: occurrence of the character
  * @s: in the string
  *
- * Return: a pointer to the first occurrence of the character c 
+ * Return: a pointer to the first occurrence of the character c
  * in the string s, or NULL if the character is not found
  */
 
 char *_strchr(char *s, char c)
 {
-	int v;
+	int v = 0;
 
 	while (*s)
 	{
 		if (*s == c)
 		{
-			return (s+v);
+			return (s + v);
 		}
 		s++;
 		v++;
