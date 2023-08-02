@@ -9,14 +9,14 @@
  *  If n does not have a natural square root, the function should return -1
  */
 
-int sqrt(int i);
+int sq(int i);
 int _sqrt_recursion(int n)
 {
 	int i = 0;
 
 	if (n < 0)
 		return (-1);
-	int sqrt(i)
+	int sq(i)
 	{
 		int v = i * i;
 
@@ -25,7 +25,7 @@ int _sqrt_recursion(int n)
 		else if (n < v)
 		{
 			i++;
-			return (sqrt(i));
+			return (sq(i));
 		}
 		else
 			return (-1);
