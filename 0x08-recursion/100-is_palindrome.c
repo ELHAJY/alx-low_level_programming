@@ -16,8 +16,8 @@ int _strlen_recursion(char *s)
 /**
  * pal_checker - check if s is palindrome.
  * @s: string base address.
- * @i: left index.
- * @j: rigth index.
+ * @v: left index.
+ * @w: rigth index.
  * Return: 1 if s is palindrome, 0 otherwise.
  */
 
