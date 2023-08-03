@@ -32,7 +32,7 @@ int pal_checker(char *s, int v, int w)
 		return (0);
 }
 /**
- * is_palindrome - function that returns 1 if a string is a palindrome and 0 if not.
+ * is_palindrome - function check if string is a palindrome.
  * @s: base address for string.
  *
  * Return: 1 if a string is a palindrome and 0 if not.
