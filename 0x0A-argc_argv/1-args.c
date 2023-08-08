@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 /**
- * main - prints the number of arguments passed into it
+ * main - prints the number of arguments passed.
  *
  * @argc: argc
  * @argv: argv
  *
- * return: 0
+ * Return: always 0.
  *
  */
 
