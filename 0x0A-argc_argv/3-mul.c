@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 
 	if (argc == 3)
 	{
-		m = atio(argv[2]) * atio(argv[1]);
+		m = atoi(argv[2]) * atoi(argv[1]);
 		printf("%d\n", m);
 	}
 	else
