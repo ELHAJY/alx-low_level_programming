@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - program that prints the number of arguments passed into it
+ * main - prints the number of arguments passed into it
  *
  * @argc: argc
  * @argv: argv
@@ -11,15 +11,9 @@
  *
  */
 
-int main(int argc, char __attribute__((unused)) *argv[])
+int main(int argc, char __attribute__((__unused__)) *argv[])
 {
-	int v = 0, w;
+	printf("%d\n", argc - 1);
 
-	while (v < argc)
-	{
-		w = v;
-		v++;
-	}
-	printf("%d\n", w);
 	return (0);
 }
