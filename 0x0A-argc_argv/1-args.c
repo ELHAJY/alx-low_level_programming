@@ -1,4 +1,5 @@
 #include <sdtio.h>
+#include <stdlib.h>
 
 /**
  * main - program that prints the number of arguments passed into it
