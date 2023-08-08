@@ -8,12 +8,11 @@
  *
  * return: 0
  *
- *
  */
 
 int main(int argc, char **argv)
 {
 	print("%d\n", argc - 1);
-	(void)argv;
+	(void)**argv;
 	return (0);
 }
