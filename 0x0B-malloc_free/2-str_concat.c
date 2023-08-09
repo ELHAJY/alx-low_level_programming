@@ -27,7 +27,7 @@ int _s(char *st)
 
 char *str_concat(char *s1, char *s2)
 {
-	unsigned int L1, l2;
+	unsigned int L1, L2;
 	char *co, *t;
 
 	if (!s1)
