@@ -22,10 +22,10 @@ char *_strdup(char *str)
 	v++;
 	st = malloc(sizeof(char) * v);
 
-	/*if (st == NULL)
+	if (!st)
 	{
 		return (NULL);
-	}*/
+	}
 
 	for (w = 0; w <= v; w++)
 	{
