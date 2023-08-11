@@ -10,10 +10,10 @@ void *malloc_checked(unsigned int b)
 void *v;
 
 v = malloc(b);
-        if (!v)
-        {
-                exit(98);
-        }
+	if (!v)
+	{
+		exit(98);
+	}
 
 return (v);
 }
