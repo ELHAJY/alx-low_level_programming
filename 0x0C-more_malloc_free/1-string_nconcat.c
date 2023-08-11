@@ -43,7 +43,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		p[v] = s1[v];
 	}
 
-	for (;v < (si1 + n); v++)
+	for (; v < (si1 + n); v++)
 	{
 		p[v] = s2[v - si1];
 	}
